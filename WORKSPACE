@@ -2,8 +2,8 @@ workspace(name = "com_github_istio_mixer")
 
 git_repository(
     name = "io_bazel_rules_go",
-    commit = "7991b6353e468ba5e8403af382241d9ce031e571",  # Aug 1, 2017 (gazelle fixes)
-    remote = "https://github.com/bazelbuild/rules_go.git",
+    commit = "da442ca36c1401e1f3dc02939744b0c0f16b2bfa",  # Aug 1, 2017 (gazelle fixes)
+    remote = "https://github.com/seelam/rules_go.git",
 )
 
 load("@io_bazel_rules_go//go:def.bzl", "go_repositories", "go_repository")
